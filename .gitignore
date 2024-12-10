@@ -1,0 +1,15 @@
+     # Ignore Mac system files
+     .DS_Store
+
+     # Ignore node_modules
+     node_modules/
+
+     # Ignore log files
+     *.log
+
+     # Ignore MAMP files
+     /path/to/mamp/htdocs/*
+     
+     # Ignore temporary files
+     tmp/
+     temp/
