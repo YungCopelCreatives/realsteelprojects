@@ -401,7 +401,7 @@ ul.search li a:hover {
 
 .full_bg {
      background: url(../images/banner2.jpg);
-     background-size: 100% 100%;
+     background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
 }
@@ -409,6 +409,7 @@ ul.search li a:hover {
 .banner_main {
      position: relative;
      padding-bottom: 212px;
+     padding: 0;
 }
 
 .build_box {
@@ -1527,4 +1528,19 @@ label {
 
 .contact-entry a:hover {
     color: #ff8c00; /* Change color on hover */
+}
+
+.map-responsive {
+    overflow: hidden; /* Hide overflow */
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    position: relative; /* Position relative for absolute positioning */
+    height: 0; /* Set height to 0 */
+}
+
+.map-responsive iframe {
+    position: absolute; /* Position absolutely */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
 }
