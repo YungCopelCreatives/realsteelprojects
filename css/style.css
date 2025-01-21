@@ -1535,6 +1535,7 @@ label {
     padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
     position: relative; /* Position relative for absolute positioning */
     height: 0; /* Set height to 0 */
+    margin: 20px; /* Add margin to ensure it fits within the page margins */
 }
 
 .map-responsive iframe {
